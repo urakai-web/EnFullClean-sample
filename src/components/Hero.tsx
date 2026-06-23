@@ -11,15 +11,8 @@ const heroImages = [
 const staff = [
   {
     id: '1',
-    image: '/images/男性.png',
-    name: '山田 太郎',
+    image: '/images/Man.jpg',
     subtitle: '私が伺います！',
-  },
-  {
-    id: '2',
-    image: '/images/女性.png',
-    name: '佐藤 花子',
-    subtitle: '丁寧に対応します！',
   },
 ]
 
@@ -172,14 +165,12 @@ export default function Hero() {
               >
                 <img
                   src={s.image}
-                  alt={s.name}
+                  alt="スタッフ"
                   className="w-full aspect-[3/4] object-cover object-top rounded-xl shadow-2xl"
                   draggable={false}
                 />
                 <div className="bg-white/80 backdrop-blur-sm border border-sky-lighter rounded-xl px-4 py-2 text-center shadow-sm">
-                  <p className="text-xs text-navy/50 font-medium mb-0.5">スタッフ</p>
-                  <p className="text-navy font-black text-base tracking-wide">{s.name}</p>
-                  <p className="text-xs text-navy/70 mt-1">{s.subtitle}</p>
+                  <p className="text-navy font-black text-base tracking-wide">{s.subtitle}</p>
                 </div>
               </div>
             ))}

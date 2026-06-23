@@ -21,7 +21,7 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <img src="/images/ロゴ.png" alt="EnFullClean" className="h-14 w-auto object-contain" />
+          <img src="/images/EnFullCleanLogo.jpg" alt="EnFullClean" className="h-14 w-auto object-contain" />
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-navy">

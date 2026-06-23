@@ -3,7 +3,6 @@ import Hero from './components/Hero'
 import Pricing from './components/Pricing'
 import ServiceArea from './components/ServiceArea'
 import Works from './components/Works'
-import BeforeAfter from './components/BeforeAfter'
 import Reviews from './components/Reviews'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
@@ -19,7 +18,6 @@ export default function App() {
         <Pricing />
         <ServiceArea />
         <Works />
-        <BeforeAfter />
         <Reviews />
         <FAQ />
         <Contact />

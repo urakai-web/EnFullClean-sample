@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-8 mb-10">
 
           <div>
-            <img src="/images/ロゴ.png" alt="EnFullClean" className="h-12 w-auto object-contain mb-3 brightness-0 invert" />
+            <img src="/images/EnFullCleanLogo.jpg" alt="EnFullClean" className="h-12 w-auto object-contain mb-3 brightness-0 invert" />
             <p className="text-white/60 text-sm leading-relaxed">
               福岡市を中心に、エアコンクリーニングを<br />
               専門に提供しています。
