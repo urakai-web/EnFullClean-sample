@@ -4,19 +4,19 @@ const posts = [
   {
     id: '1',
     url: 'https://www.instagram.com/reel/DZ3cpFpvr0y/',
-    image: '/images/エアコンA.png',
+    image: '/images/reel1.jpg',
     title: 'エアコン分解洗浄',
   },
   {
     id: '2',
     url: 'https://www.instagram.com/reel/DZjx3g-vq3L/',
-    image: '/images/エアコンB.png',
+    image: '/images/reel2.jpg',
     title: 'ビフォーアフター',
   },
   {
     id: '3',
     url: 'https://www.instagram.com/reel/DZKYoTovT8o/',
-    image: '/images/エアコン.png',
+    image: '/images/reel3.jpg',
     title: '作業の様子',
   },
 ]
